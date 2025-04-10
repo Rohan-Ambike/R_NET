@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid #000; */
+}
+
+.lora-font {
+    font-family: "Lora", serif;
+}
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+}
+
+.caveat-font {
+    font-family: "Caveat", cursive;
+}
+
+.cinzel-font {
+    font-family: "Cinzel", serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    position: relative;
+    height: 100%;
+}
+
+:root {
+
+
+    --blue1: #005ca3;
+    --blue2: #0077cc;
+    --blue3: #0099e6;
+    --blue4: #00bfff;
+    --blue5: #66ccff;
+    --blue6: #99ccff;
+
+    --orange1: #CC5500;
+    --orange2: #f0a800;
+    --orange3: #e4c858;
+
+    --shadow1: 0 0 2px 2px #ccc;
+    --shadow2: rgb(0 0 0 / 20%) -5px 5px 30px,
+        rgb(0 0 0 / 20%) -10px 10px 5px;
+    --shadow3: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+    --gradient1: linear-gradient(115deg, #005ca3, #0077cc, #0099e6);
+    --gradient2: linear-gradient(115deg, #0077cc, #0099e6, #00bfff);
+
+    --gradient3: linear-gradient(#000 0 0, rgba(0, 119, 204, 0.3) 0 100%), linear-gradient(#000 0 0, rgba(0, 0, 0, 0.4) 0 100%);
+
+    --gradient4: linear-gradient(#000 0 0, #0099e622 0 100%), linear-gradient(#000 0 0, rgba(0, 0, 0, 0.3) 0 100%);
+
+    /* background: none no-repeat center/cover local transparent; */
+    /*background: BG_image  BG_repeat BG_position/BG_size BG_attachment BG_color */
+    /* https://colorkit.co/color-palette-generator/0077cc-005ca3-1b37a7-e4c858-f0a800/ */
+    /* https://colorkit.co/color-palette-generator/0077cc-0099e6-00bfff-66ccff-99ccff/ */
+}
+
+.button1 {
+    background: var(--gradient1);
+    color: #fff;
+    border: 1px solid transparent;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.button1:hover {
+    background: var(--gradient2);
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.button2 {
+    background: none;
+    background-color: #fff;
+    color: var(--blue2);
+    border: 1px solid #fff;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.button2:hover {
+    border: 1px solid #fff;
+}
+
+nav li {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-family: 'Open Sans', serif;
+}
+
+h2 {
+    font-family: "Cinzel", serif;
+}
+
+h3 {
+    font-family: "Caveat", cursive;
+}
+
+h4 {
+    font-family: "Caveat", cursive;
+}
+
+h5 {
+    font-family: "Cinzel", serif;
+}
+
+h6 {
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Open Sans', serif;
+}
+
+#hero,
+#counter,
+#about,
+#quote,
+#features,
+#values,
+#contact,
+#footer {
+    margin-top: 70px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--blue1);
+}
+
+p,
+ul,
+li {
+    line-height: 30px;
+}
+
+/* Navbar */
+
+/* Hero */
+
+#hero h1 {
+    font-weight: 700;
+}
+
+#hero h1,
+#hero h6 {
+    color: #fff;
+    text-shadow: 1px 1px 0px #00000055;
+}
+
+#hero .swiper-slide {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First swiper-slide */
+#hero .bg1 {
+    background-image: var(--gradient3), url('../images/1.png');
+    background-position: center;
+}
+
+/* Second swiper-slide */
+#hero .bg2 {
+    background-image: var(--gradient3), url('../images/2.png');
+}
+
+/* Third swiper-slide */
+#hero .bg3 {
+    background-image: var(--gradient3), url('../images/3.png');
+    background-position: center;
+}
+
+/* Fourth swiper-slide */
+#hero .bg4 {
+    background-image: var(--gradient3), url('../images/4.png');
+}
+
+
+/* Counter */
+
+/* About */
+
+main img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+    margin: auto;
+}
+
+
+/* Quote */
+
+#quote .swiper-slide {
+    background-color: transparent;
+}
+
+#quote {
+    background: var(--gradient4), url('../images/9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#quote h4,
+#quote p {
+    color: #ffffff;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px #00000055;
+}
+
+/* Features */
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: var(--blue1);
+    box-shadow: var(--shadow3);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+/* Values */
+
+#values .fa-solid {
+    font-size: 50px;
+    color: var(--blue1);
+}
+
+/* Contact */
+
+#contact .blocks>div:nth-child(1),
+#contact .blocks>div:nth-child(2),
+#contact .blocks>div:nth-child(3) {
+    box-shadow: var(--shadow2);
+    transform: scale(0.9);
+    transition: all 0.2s ease-in-out;
+    color: #000;
+    background-color: #fff;
+}
+
+#contact .blocks>div:nth-child(1):hover,
+#contact .blocks>div:nth-child(2):hover,
+#contact .blocks>div:nth-child(3):hover {
+    transform: scale(1);
+    color: #fff;
+    background-color: var(--blue2);
+}
+
+#contact .fa-solid {
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 30px;
+    color: inherit;
+}
+
+#contact h5,
+#contact p {
+    color: inherit;
+}
+
+#contact form {
+    box-shadow: var(--shadow1);
+    transform: scale(0.9);
+    transition: all 0.4s ease-in-out;
+    color: #000;
+    background-color: #fff;
+}
+
+#contact form:hover {
+    transform: scale(1);
+    color: #fff;
+    background-color: var(--blue2);
+}
+
+
+#contact .form-control {
+    font-family: 'Open Sans', serif;
+    border-radius: 0;
+    color: inherit;
+    background-color: inherit;
+}
+
+#contact ::placeholder {
+    color: inherit !important;
+}
+
+#contact button[type="submit"] {
+    border: 2px solid var(--blue3);
+    border-radius: 50px;
+}
+
+/* Footer */

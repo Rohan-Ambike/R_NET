@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="mr">
+
+<head>
+    <title>
+        MyPage
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Jquery Connection -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- SwiperJS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- GSAP Scroll Trigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4JQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/png" href="./images/icon.jpeg">
+
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top border-bottom border-1">
+        <div class="container">
+            <a href="#">
+                <img src="" width="90%" style="max-width: 180px;" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul
+                    class="navbar-nav mx-auto me-md-0 mb-2 mb-lg-0 d-flex justify-content-end align-items-start align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active nav1" aria-current="page" href="#about-pointer">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav2" href="#features-pointer">Features</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav3" href="#values-pointer">Our Values</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link nav4" href="#contact-pointer">
+                            <button class="btn button1" type="submit">
+                                Contact Us
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="hero" class="swiper mySwiper h-75">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg1">
+
+                <div class="container d-flex justify-content-center align-items-center h-100">
+                    <div class="row w-100">
+                        <div class="col-12 text-center">
+                            <h1 class="fm-11 pb-2">Comprehensive HR Solutions for Your Business</h1>
+                            <h6 class="fm-5">
+                                From recruitment to payroll, compliance, and employee management, we handle all your HR
+                                needs.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide bg2">
+
+                <div class="container d-flex justify-content-center align-items-center h-100">
+                    <div class="row w-100">
+                        <div class="col-12 text-center">
+                            <h1 class="fm-11 pb-2">Empowering Businesses with Expert HR Solutions</h1>
+                            <h6 class="fm-5">
+                                Seamless recruitment, payroll, and compliance management—so you can focus on growth.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide bg3">
+
+                <div class="container d-flex justify-content-center align-items-center h-100">
+                    <div class="row w-100">
+                        <div class="col-12 text-center">
+                            <h1 class="fm-11 pb-2">HR Excellence, Tailored for Your Business</h1>
+                            <h6 class="fm-5">
+                                From hiring to payroll and beyond, we provide customized HR services that drive success.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-slide bg4">
+
+                <div class="container d-flex justify-content-center align-items-center h-100">
+                    <div class="row w-100">
+                        <div class="col-12 text-center">
+                            <h1 class="fm-11 pb-2">Your Trusted Partner in HR Management</h1>
+                            <h6 class="fm-5">
+                                Simplify HR operations with expert-driven solutions for workforce management and
+                                compliance.
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </header>
+
+    <!-- Counter -->
+    <section id="counter" class="mt-4 pt-1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div id="services_provided" data-count="20"
+                        class="d-flex justify-content-center align-items-center">
+                        <div class="text-center">
+                            <h2 class="counter">
+
+                            </h2>
+                            <h3>Services Provided</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div id="clients" data-count="60" class="d-flex justify-content-center align-items-center">
+                        <div class="text-center">
+                            <h2 class="counter">
+
+                            </h2>
+                            <h3>Happy Clients</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div id="customer_support" data-count="130"
+                        class="d-flex justify-content-center align-items-center">
+                        <div class="text-center">
+                            <h2 class="counter">
+
+                            </h2>
+                            <h3>Active Customer Support Agents</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function runCounter(elementId, speed) {
+                const paraentCounter = document.getElementById(elementId);
+                const maxCount = parseInt(paraentCounter.getAttribute('data-count'), 10);
+                const counter = paraentCounter.querySelector('div>.counter');
+                let count = 0;
+
+                const timer = setInterval(() => {
+                    counter.textContent = `${count}+ `;
+                    if (count >= maxCount) {
+                        clearInterval(timer);
+                    }
+                    count++;
+                }, speed);
+            }
+
+            document.addEventListener("DOMContentLoaded", function () {
+                runCounter('services_provided', 100);
+                runCounter('clients', 60);
+                runCounter('customer_support', 45);
+            });
+        </script>
+    </section>
+    <div id="about-pointer"></div>
+
+    <!-- About -->
+    <main id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-12 pt-2 ">
+                    <h2>About</h2>
+                </div>
+
+                <div class="col-md-6 py-2 d-flex justify-content-center align-items-center">
+                    <div class="fm-5">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-9 mx-auto">
+                                <p>
+                                    We are a professional <i>HR management services company</i> committed to
+                                    streamlining human
+                                    resource
+                                    management for businesses of all
+                                    sizes.
+                                    <br><br>
+                                    Our expertise covers talent acquisition, payroll management, compliance, employee
+                                    engagement, and workforce planning.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 py-2">
+                    <img src="./images/5.png" alt="thumb1">
+                </div>
+
+                <div class="col-md-6 py-2">
+                    <div class="row">
+                        <div class="col-6">
+                            <img class="" src="./images/6.png" alt="thumb1"
+                                style="object-fit: cover;object-position: right;">
+                        </div>
+                        <div class="col-6">
+                            <div class="row gy-4">
+                                <div class="col-12">
+                                    <img class="img-fluid" src="./images/7.png" alt="thumb1" style="object-fit: cover;">
+                                </div>
+                                <div class="col-12">
+                                    <img class="img-fluid" src="./images/8.png" alt="thumb1" style="object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-2 d-flex justify-content-center align-items-center">
+                    <div class="fm-5">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-9 mx-auto">
+                                <p>
+                                    With a dedicated team of HR professionals, we help businesses <i>reduce costs, stay
+                                        compliant,
+                                        and improve efficiency,</i>
+                                    ensuring smooth HR operations. Whether you're a startup or a large enterprise, our
+                                    tailored
+                                    solutions ensure your
+                                    workforce runs seamlessly.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <div id="features-pointer"></div>
+
+    <!-- Features -->
+    <section id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pt-2 pb-5">
+                    <h2>Features</h2>
+                    <p class="text-center">
+                        We offer a wide range of HR services, including:
+                    </p>
+                </div>
+
+
+                <div class="col-12">
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Recruitment & Talent Acquisition
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Finding the right talent is crucial for business success. We handle the entire
+                                        recruitment process, from <i>job postings
+                                            and candidate screening to interview coordination and onboarding</i>. Our
+                                        expert
+                                        recruiters ensure that you attract and
+                                        retain top-tier professionals who align with your company culture and goals.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Payroll & Benefits Administration
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Managing payroll can be time-consuming and complex. Our payroll services ensure
+                                        <i>accurate salary processing, tax
+                                            compliance, and benefits administration</i>, allowing you to focus on core
+                                        business
+                                        activities. We guarantee <b>error-free
+                                            payroll execution</b>, ensuring employees receive their wages on time while
+                                        staying
+                                        compliant with tax and labor laws.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    HR Compliance & Legal Support
+
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        Staying compliant with <b>labor laws and industry regulations</b> is essential
+                                        to
+                                        avoid
+                                        legal risks. Our team ensures your HR
+                                        policies, employment contracts, and company regulations adhere to the latest
+                                        legal
+                                        standards. We assist in
+                                        <i>documentation, employee dispute resolution, and compliance audits, minimizing
+                                            risks</i>
+                                        and protecting your business.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Employee Training & Development
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>
+                                        A well-trained workforce is the backbone of a successful organization. We
+                                        provide
+                                        <i>customized training programs,
+                                            leadership development workshops, and upskilling initiatives</i> to enhance
+                                        employee
+                                        performance. Our learning solutions are
+                                        designed to <b>boost productivity, improve engagement, and support career
+                                            growth</b> within
+                                        your organization.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    Workforce Planning & Performance Management
+
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Effective workforce management drives business success. Our services include
+                                    <i>performance tracking, KPI management,
+                                        employee evaluations, and strategic HR planning</i>. We help businesses identify
+                                    skill
+                                    gaps, improve employee productivity,
+                                    and develop strategies for long-term workforce growth,
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <div id="values-pointer"></div>
+
+    <!-- Values -->
+    <!-- Values -->
+    <section id="values">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pt-2 ">
+                    <h2>Our Core Values:</h2>
+                    <p class="text-center">
+                        At R_NET, we believe in:
+                    </p>
+                </div>
+
+                <div class="row text-center justify-content-evenly g-5">
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-shield-alt pb-5"></i>
+                        <h5 class="pb-3">Integrity</h5>
+                        <p>
+                            We believe in transparency and honesty in every interaction, putting your business’s success
+                            at utmost priority.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-lightbulb pb-5"></i>
+                        <h5 class="pb-3">Innovation</h5>
+                        <p>
+                            We continuously push the boundaries of what’s possible, integrating the latest HR
+                            technologies to drive smarter, faster
+                            results.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-handshake pb-5"></i>
+                        <h5 class="pb-3">Collaboration</h5>
+                        <p>
+                            Our approach is built on partnership—working closely with you to craft HR solutions that
+                            align with your vision and
+                            goals.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-award pb-5"></i>
+                        <h5 class="pb-3">Excellence</h5>
+                        <p>
+                            We are committed to providing the highest quality in everything we do, ensuring our HR
+                            solutions deliver long-term
+                            value.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-user-tie pb-5"></i>
+                        <h5 class="pb-3">Client-Centric</h5>
+                        <p>
+                            Your business needs are our top priority. We listen, adapt, and tailor our solutions to
+                            create the best outcomes for
+                            your team.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="fa-solid fa-chart-line pb-5"></i>
+                        <h5 class="pb-3">Growth</h5>
+                        <p>
+                            We foster growth and development for clients and our team, embracing challenges to help your
+                            business soar.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+
+    <!-- Quote -->
+    <aside id="quote">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 h-100 d-flex justify-content-center align-items-center">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper2 px-4" style="height: 100%;max-height: 40vh;">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="row w-100">
+                                    <div class="col-12">
+                                        <h4 class="fm-13">
+                                            <q> Your customers don’t care how much you know until they know how much you
+                                                care.</q>
+                                        </h4>
+                                        <p>- <i>Damon Richards</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row w-100">
+                                    <div class="col-12">
+                                        <h4 class="fm-13">
+                                            <q> Quality in a service or product is not what you put into it. It is what
+                                                the
+                                                client gets out of it.</q>
+                                        </h4>
+                                        <p>- <i>Peter Drucker</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row w-100">
+                                    <div class="col-12">
+                                        <h4 class="fm-13">
+                                            <q> The goal as a company is to have customer service that is not just the
+                                                best,
+                                                but legendary.</q>
+                                        </h4>
+                                        <p>- <i>Sam Walton</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row w-100">
+                                    <div class="col-12">
+                                        <h4 class="fm-13">
+                                            <q> Clients do not come first. Employees come first. If you take care of
+                                                your
+                                                employees, they will take care of the clients.</q>
+                                        </h4>
+                                        <p>- <i>Richard Branson</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row w-100">
+                                    <div class="col-12">
+                                        <h4 class="fm-13">
+                                            <q> A satisfied customer is the best business strategy of all.</q>
+                                        </h4>
+                                        <p>- <i>Michael LeBoeuf</i></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-button-next"></div>
+                                                            <div class="swiper-button-prev"></div> -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div id="contact-pointer"></div>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pt-2 pb-5">
+                    <h2>Contact Us</h2>
+                </div>
+            </div>
+            <div class="row text-center justify-content-evenly blocks">
+                <div class="col-md-6 col-lg-3 p-4">
+                    <i class="fa-solid fa-headset"></i>
+                    <h5>
+                        Call Us
+                    </h5>
+                    <p>
+                        +1 718.905.0688
+                    </p>
+                </div>
+                <div class="col-md-6 col-lg-3 p-4">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h5>
+                        Email Us
+                    </h5>
+                    <p>
+                        info@digitalzone.com
+                    </p>
+                </div>
+                <div class="col-lg-5 p-4">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    <h5>
+                        Address
+                    </h5>
+                    <p>
+                        1216 Broadway, Floor #2, New York City, New York 10001
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-6">
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400553310003!2d78.0421422!3d27.175144799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1744300468880!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="text-center pb-2">
+                        Get Started
+                    </h1>
+                    <form action="" method="post" class="p-5">
+                        <div class="row">
+                            <div class="col-md-6 pb-2">
+                                <input type="text" class="form-control" placeholder="First Name" name="firstName">
+                            </div>
+                            <div class="col-md-6 py-2 pt-md-0">
+                                <input type="text" class="form-control" placeholder="Last Name" name="lastName">
+                            </div>
+
+                            <div class="col-md-6 py-2">
+                                <input type="email" class="form-control" placeholder="Email" name="email">
+                            </div>
+
+                            <div class="col-md-6 py-2">
+                                <input type="tel" class="form-control" placeholder="Phone" name="phone">
+                            </div>
+
+                            <div class="col-12 py-2">
+                                <div class="mb-3">
+                                    <textarea class="form-control" rows="4" placeholder="Message"
+                                        name="message"></textarea>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12 pt-2">
+                                <button class="btn button2 d-block mx-auto" type="submit">
+                                    <h4 class="lora-font mb-0 py-1 px-3">
+                                        Contact Us
+                                    </h4>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="pb-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+                    <h5>
+                        © Copyright 2025 | <a href="">R_NET</a> | All Rights Reserved
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Scroll Triggger -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4JQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./animation.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            $('nav').css({ "background-color": "#fff", "background-image": "none" });
+            $('.nav-link').css({ "color": "#000" });
+            $('.nav-item button').addClass("button1").removeClass("button2");
+            $('nav img[alt="Logo"]').attr('src', './images/logo.png');
+
+
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 15) {
+                    $('nav').css({
+                        "background-color": "transparent",
+                        "background-image": "linear-gradient(115deg, #005ca3, #0077cc, #0099e6)",
+                    });
+                    $('.nav-link').css({ "color": "#fff" });
+                    $('.nav-item button').addClass("button2").removeClass("button1");
+                    $('nav img[alt="Logo"]').attr('src', './images/wlogo.png');
+                }
+                else if ($(this).scrollTop() < 15) {
+                    $('nav').css({
+                        "background-color": "#fff",
+                        "background-image": "none",
+                        "transition": "all 0.5s ease-in-out"
+                    });
+                    $('.nav-link').css({ "color": "#000" });
+                    $('.nav-item button').addClass("button1").removeClass("button2");
+                    $('nav img[alt="Logo"]').attr('src', './images/logo.png');
+                }
+            })
+        });
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        let swiper = new Swiper(".mySwiper", {
+            direction: "horizontal",
+            // direction: "vertical",
+            loop: true,
+            grabCursor: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            // effect: "fade", //Works only on One Slide Per View
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                },
+            },
+        });
+
+        let swiper2 = new Swiper(".mySwiper2", {
+            // direction: "horizontal",
+            direction: "vertical",
+            loop: true,
+            grabCursor: true,
+            centeredSlides: true,
+            // mousewheel: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            // effect: "fade", //Works only on One Slide Per View
+            // pagination: {
+            //     el: ".swiper-pagination",
+            //     clickable: true,
+            // },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+            },
+        });
+    </script>
+
+</body>
+
+</html>
